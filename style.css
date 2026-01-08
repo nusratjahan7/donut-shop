@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff7f9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+.logo {
+    font-weight: 700;
+    color: #e84a78;
+    font-size: 30px;
+    font-family: "Happy Monkey", system-ui;
+}
+.logo img{
+    width: 45px;
+}
+.header nav a{
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #353434;
+    border-bottom: 2px solid transparent;
+}
+.header nav a:hover{
+    color: #e84a78;
+    border-bottom: 2px solid #e84a78;
+}
+.header nav .active{
+    color: #e84a78;
+}
+.btn{
+    background-color: #e84a78;
+    border: none;
+    padding: 10px 22px;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.btn-outline{
+    border: 2px solid #e84a78;
+    background: transparent;
+    color: #e84a78;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    align-items: center;
+}
+.hero h1{
+    font-size: 64px;
+    font-family: "Happy Monkey", system-ui;
+    line-height: 1.1;
+    color: #353434;
+}
+.hero p{
+    margin: 20px 0;
+    max-width: 420px;
+    letter-spacing: .5px;
+    font-size: 18px;
+    color: #353434;
+}
+.hero-img img{
+    width: 380px;
+}
+.services{
+    margin: 80px 100px;
+    align-items: center;
+    color: #353434;
+}
+.service-heading ,h2 , h4, p{
+    margin: 25px 0;
+    text-align: center;
+}
+.services .section-label{
+   color: #e84a78;
+   font-weight: 600;
+   margin-bottom: 15px;
+   font-family: "Happy Monkey", system-ui;
+}
+.service-grid {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.service-grid .service-card{
+    background-color: #fff;
+    box-shadow: 0 0 5px #3534348f;
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+.service-grid .service-card a, i{
+    text-decoration: none;
+    color: #e84a78;
+    margin-bottom: 10px;
+}
+.service-grid .service-card-highlight{
+    background-color: #e84a78;
+    box-shadow: 0 0 5px #353434;
+    padding: 35px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.service-card-highlight #white-badge, a{
+    color: #fff;
+    text-decoration: none;
+}
