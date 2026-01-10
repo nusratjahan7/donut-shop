@@ -79,6 +79,7 @@ body{
     letter-spacing: .5px;
     font-size: 18px;
     color: #353434;
+    text-align: left;
 }
 .hero-img img{
     width: 380px;
