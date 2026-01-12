@@ -295,10 +295,15 @@ footer{
     .logo img{
         width: 20px;
     }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
 
     .header nav a{
-        margin: 0 5px;
-        font-size: 6px;
+        margin: 5px 5px 0;
+        font-size: 15px;
     }
     .auth{
         display: flex;
@@ -310,6 +315,6 @@ footer{
     }
     .btn-outline{
         padding: 5px 8px;
-        font-size: 6px;
+        font-size: 10px;
     }
 }
