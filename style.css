@@ -386,12 +386,14 @@ footer{
         width: 98%;
         margin: 0;
     }
+    .offer-container .offer-img img{
+        margin-top: 20px;
+    }
     .items .item-container{
         margin: 10px auto;
     }
     .item-container .item-grid{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         margin-left: 15px;
         align-items: center;
         gap: 8px;
