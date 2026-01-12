@@ -299,9 +299,7 @@ footer{
     "logo navbar auth";
 }
 @media screen and (max-width:576px) {
-    body{
-        margin: 0;
-    }
+
     .header{
         display: grid;
         padding: 10px 10px;
@@ -393,7 +391,6 @@ footer{
     .item-container .item-grid{
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         justify-content: center;
     }
