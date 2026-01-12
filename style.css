@@ -296,16 +296,19 @@ footer{
 }
 .header{
     grid-template-areas: 
-    "logo logo navbar navbar auth";
+    "logo navbar auth";
 }
 @media screen and (max-width:576px) {
+    body{
+        margin: 0;
+    }
     .header{
         display: grid;
         padding: 10px 10px;
         grid-template-areas: 
-        "logo logo logo logo logo" 
-        "navbar navbar navbar navbar navbar"
-        "auth auth auth auth auth";
+        "logo   logo   logo" 
+        "navbar navbar navbar"
+        "auth   auth   auth";
     }
     .logo{
         font-size: 20px;
@@ -358,7 +361,7 @@ footer{
         margin-top: 15px;
     }
     .hero-img img{
-        width: 98%;
+        width: 95%;
     }
     .services {
         margin: 30px 10px;
@@ -393,5 +396,20 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         justify-content: center;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .footer{
+        display: grid;
+        margin: 10px 10px;
+    }
+    .footer-logo{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .footer-logo p{
+        text-align: left;
+        font-size: 15px;
     }
 }
