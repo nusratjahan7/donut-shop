@@ -347,6 +347,9 @@ footer{
         font-size: 15px;
         max-width: 300px;
     }
+    #hero-btn{
+        padding: 10px 15px;
+    }
     #hero-btn2{
         padding: 8px 10px;
     }
@@ -355,6 +358,40 @@ footer{
         margin-top: 15px;
     }
     .hero-img img{
-        width: 100%;
+        width: 98%;
+    }
+    .services {
+        margin: 30px 10px;
+    }
+    .service-grid{
+        display: grid;
+        gap: 20px;
+    }
+    .about .about-container, .offer .offer-container{
+        display: grid;
+        margin-top: 50PX;
+    }
+    .about-container .about-content, .offer-container .offer-content{
+        padding: 0 20px;
+        margin: 0;
+    }
+    .about-content h1, .offer-content h1{
+        font-size: 30px;
+    }
+    .about-content .ab-p, .offer-content .of-p{
+        width: 98%;
+    }
+    .about-container .about-img img, .offer-container .offer-img img{
+        width: 98%;
+    }
+    .items .item-container{
+        margin: 10px auto;
+    }
+    .item-container .item-grid{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        justify-content: center;
     }
 }
