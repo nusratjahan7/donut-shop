@@ -391,6 +391,8 @@ footer{
     }
     .item-container .item-grid{
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 15px;
         align-items: center;
         gap: 8px;
         justify-content: center;
