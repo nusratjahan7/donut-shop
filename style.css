@@ -295,23 +295,21 @@ footer{
     .logo img{
         width: 20px;
     }
-    nav{
-        padding-right: 0;
-    }
+
     .header nav a{
         margin: 0 5px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .auth{
         display: flex;
         gap: 5px;
     }
     .btn{
-        padding: 5px 10px;
+        padding: 5px 8px;
         font-size: 10px;
     }
     .btn-outline{
-        padding: 5px 10px;
-        font-size: 10px;
+        padding: 5px 8px;
+        font-size: 6px;
     }
 }
