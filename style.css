@@ -282,3 +282,36 @@ footer{
     list-style: none;
     margin-top: 9px;
 }
+#hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    .header{
+        padding: 10px 10px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .logo img{
+        width: 20px;
+    }
+    nav{
+        padding-right: 0;
+    }
+    .header nav a{
+        margin: 0 5px;
+        font-size: 15px;
+    }
+    .auth{
+        display: flex;
+        gap: 5px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .btn-outline{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
