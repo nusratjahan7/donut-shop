@@ -75,7 +75,7 @@ body{
 }
 .hero p{
     margin: 20px 0;
-    max-width: 420px;
+    
     letter-spacing: .5px;
     font-size: 18px;
     color: #333333;
@@ -384,6 +384,7 @@ footer{
     }
     .about-container .about-img img, .offer-container .offer-img img{
         width: 98%;
+        margin: 0;
     }
     .items .item-container{
         margin: 10px auto;
@@ -400,6 +401,7 @@ footer{
     .footer{
         display: grid;
         margin: 10px 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
     .footer-logo{
         margin-top: 20px;
